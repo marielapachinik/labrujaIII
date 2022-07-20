@@ -32,7 +32,6 @@ body {
   background-color: black;
   list-style: none;
   text-decoration: dotted;
-  /* contenedor flex */
   height: 50px;
   border: solid 1px #cd6155;
   display: flex;
@@ -42,6 +41,7 @@ body {
   margin-bottom: 2%; }
   .encabezado__lista__lista__item:hover {
     height: fit-content;
+    list-style: none;
     text-decoration: none;
     display: inline-block;
     transform: scale(2); }
