@@ -45,9 +45,10 @@ body{
 
 
 .encabezado__lista{
+    background-color: map-get($colores, "color-terciario");
+
     margin: 0 auto;
     width: 100%;
-    background-color: black;
     list-style: none;
     text-decoration: dotted;
 
@@ -60,16 +61,17 @@ body{
     align-items: center;
     margin-bottom: 2%;
 
-    &__lista__item:hover{
+    &__lista__item{
         height: fit-content;
         text-decoration: none;
         display:inline-block;
-        transform: scale(2);
+        
 
-        a{
+        a:hover{
             text-decoration: none;
             font-size: x-large;
             color:white;
+            transform: scale(2);
         }
     }
 }

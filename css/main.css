@@ -27,9 +27,9 @@ body {
 
 /* Encabezado */
 .encabezado__lista {
+  background-color: black;
   margin: 0 auto;
   width: 100%;
-  background-color: black;
   list-style: none;
   text-decoration: dotted;
   /* contenedor flex */
@@ -40,15 +40,15 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 2%; }
-  .encabezado__lista__lista__item:hover {
+  .encabezado__lista__lista__item {
     height: fit-content;
     text-decoration: none;
-    display: inline-block;
-    transform: scale(2); }
-    .encabezado__lista__lista__item:hover a {
+    display: inline-block; }
+    .encabezado__lista__lista__item a:hover {
       text-decoration: none;
       font-size: x-large;
-      color: white; }
+      color: white;
+      transform: scale(2); }
 
 /* Imagen del logo */
 .img_logo {
@@ -80,8 +80,8 @@ body {
   color: white; }
 
 /*Fondo de pagina Index y contacto */
-.background-index {
-  background-image: url("./imagenes/fondo.bmp");
+.background-index-contacto {
+  background-image: url("../imagenes/fondo.bmp");
   font-family: 'Times New Roman', Times, serif; }
 
 /*Falso carrousel*/
@@ -226,7 +226,7 @@ body {
     flex-direction: row; } }
 
 /*Fondo de pagina Index y contacto */
-.background-index {
+.background-index-contacto {
   background-image: url("./imagenes/fondo.bmp");
   font-family: 'Times New Roman', Times, serif; }
 
