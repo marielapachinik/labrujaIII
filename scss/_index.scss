@@ -1,0 +1,120 @@
+
+/*Fondo de pagina Index y contacto */
+
+.background-index{
+    background-image: url("./imagenes/fondo.bmp");
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+
+/*Falso carrousel*/
+
+.falsocarrousel{
+    width: 20%;
+    height: 300px;
+    margin-top:4%;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    align-items: center;
+    background-image: url(./imagenes/mundos-posibles3.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    animation: carrousel 8s  10;
+  }
+
+
+@keyframes carrousel{
+    0%{
+        background-image: url(./imagenes/mundos-posibles.png);
+    }
+    25%{
+        background-image: url(./imagenes/de-ausencias.jpg);
+    }
+    50%{
+        background-image: url(./imagenes/en-viaje3.jpg);
+    }
+    75%{
+        background-image: url(./imagenes/mundos-posibles3.jpg);
+    }
+    100%{
+        background-image: url(./imagenes/de-ausencias3.jpg);
+    }
+  }
+
+@keyframes carrousel{
+0%{
+    background-image: url(./imagenes/mundos-posibles3.png);
+}
+25%{
+    background-image: url(./imagenes/de-ausencias3.jpg);
+}
+50%{
+    background-image: url(./imagenes/en-viaje3.jpg);
+}
+75%{
+    background-image: url(./imagenes/mundos.posibles3.jpg);
+}
+100%{
+    background-image: url(./imagenes/de-ausencias3.jpg);
+}
+}
+
+
+/* Media queries */
+
+
+@media screen and (max-width:600px){
+
+   
+
+    .encabezado__lista__item a{ 
+        text-decoration: none;
+        font-size: large;
+        color:white;
+        
+    }
+    
+    .encabezado__lista__item:hover{
+        transform: scale(2);
+        height: fit-content;
+        text-decoration: none;
+        
+        
+    }
+    
+    .encabezado__lista{
+        margin: 0 auto;
+        width: auto;
+        background-color: black;
+        list-style: none;
+        text-decoration: dotted;
+    
+        /* contenedor flex */
+        height: max-content;
+        border: solid 1px rgb(205,97,85);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* direccionar la posicion el contenido */
+        align-items: center;
+        margin-bottom: 4%;
+    }
+    
+
+    .falsocarrousel{
+        width: 55%;
+        height: 300px;
+        margin-top:1%;
+        margin-left: 15%;
+        margin-bottom: 0.5%;
+        background-image: url(./imagenes/mundos-posibles3.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        justify-items: center;
+        animation: carrousel 8s  10;
+      }
+    
+
+    
+}

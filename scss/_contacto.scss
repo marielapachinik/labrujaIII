@@ -1,0 +1,76 @@
+
+/*Fondo de pagina Index y contacto */
+
+.background-index{
+    background-image: url("./imagenes/fondo.bmp");
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+/* Contenido html "Contacto" */
+
+.titulo__contacto{
+    margin-top: 2%;
+    margin-left:5%;
+    margin-bottom: 1%;
+}
+
+
+.lista__redes{ 
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+
+    /* contenedor flex */
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* direccionar la posicion el contenido */
+    align-items: flex-start;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.lista__redes__item{
+    padding-right: 20px;
+    margin-left: 2%;
+    margin-right: 6%;
+    margin-top:1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+
+
+}
+
+
+.footer__lista__escritoras{
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+    list-style: none;
+
+    /* contenedor flex */
+    height: 50px;
+    border: solid 2px darkred;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* direccionar la posicion el contenido */
+    align-items: center;
+    
+}
+
+.footer__lista__escritoras__item:hover{
+    margin-left: 2%;
+    font-size: x-large;
+    transform: skew(deg)
+}
+
+.footer__lista__escritoras a{
+    text-decoration: none;
+    font-size: x-large;
+    color:white;
+}
+
+
+
