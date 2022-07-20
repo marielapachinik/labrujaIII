@@ -26,30 +26,29 @@ body {
   min-height: 50vh; }
 
 /* Encabezado */
-.encabezado {
-  background-color: black; }
-  .encabezado__lista {
-    margin: 0 auto;
-    width: 100%;
-    list-style: none;
-    text-decoration: dotted;
-    height: 50px;
-    border: solid 1px #cd6155;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 2%; }
-    .encabezado__lista__lista__item:hover {
-      height: fit-content;
-      list-style: none;
+.encabezado__lista {
+  margin: 0 auto;
+  width: 100%;
+  background-color: black;
+  list-style: none;
+  text-decoration: dotted;
+  /* contenedor flex */
+  height: 50px;
+  border: solid 1px #cd6155;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2%; }
+  .encabezado__lista__lista__item:hover {
+    height: fit-content;
+    text-decoration: none;
+    display: inline-block;
+    transform: scale(2); }
+    .encabezado__lista__lista__item:hover a {
       text-decoration: none;
-      display: inline-block;
-      transform: scale(2); }
-      .encabezado__lista__lista__item:hover a {
-        text-decoration: none;
-        font-size: x-large;
-        color: white; }
+      font-size: x-large;
+      color: white; }
 
 /* Imagen del logo */
 .img_logo {
