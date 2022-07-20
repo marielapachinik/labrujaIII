@@ -26,17 +26,6 @@ body {
   min-height: 50vh; }
 
 /* Encabezado */
-.encabezado__lista__item a {
-  text-decoration: none;
-  font-size: x-large;
-  color: white; }
-
-.encabezado__lista__item:hover {
-  height: fit-content;
-  text-decoration: none;
-  display: inline-block;
-  transform: scale(2); }
-
 .encabezado__lista {
   margin: 0 auto;
   width: 100%;
@@ -49,9 +38,17 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* direccionar la posicion el contenido */
   align-items: center;
   margin-bottom: 2%; }
+  .encabezado__lista__lista__item:hover {
+    height: fit-content;
+    text-decoration: none;
+    display: inline-block;
+    transform: scale(2); }
+    .encabezado__lista__lista__item:hover a {
+      text-decoration: none;
+      font-size: x-large;
+      color: white; }
 
 /* Imagen del logo */
 .img_logo {
