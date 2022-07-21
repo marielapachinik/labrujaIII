@@ -1,6 +1,13 @@
 
 /* Contenido html "Biografia" */
 
+
+.body-general{
+    background-color: map-get($colores, "color-principal");
+    font-family:'Times New Roman', Times, serif;
+
+}
+
 .h1_biografia{
     font-size: x-large;
     margin-left: 2%;
