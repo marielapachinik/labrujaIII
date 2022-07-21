@@ -14,9 +14,6 @@ h1 {
 section {
   color: black; }
 
-html {
-  font-size: 16px; }
-
 body {
   min-height: 50vh; }
 
@@ -139,11 +136,11 @@ footer .footer__lista {
     justify-content: space-around;
     /* direccionar la posicion el contenido */
     align-items: center;
-    margin-bottom: 4%; }
+    margin-bottom: 6%; }
   .falsocarrousel {
-    width: 55%;
+    width: 40%;
     height: 300px;
-    margin-top: 1%;
+    margin-top: 10%;
     margin-left: 15%;
     margin-bottom: 0.5%;
     background-image: url(./imagenes/mundos-posibles3.png);
@@ -232,7 +229,7 @@ footer .footer__lista {
 .titulo__contacto {
   margin-top: 2%;
   margin-left: 5%;
-  margin-bottom: 1%; }
+  margin-bottom: 2%; }
 
 .titulo__contacto {
   font-size: xx-large;
@@ -276,4 +273,55 @@ footer .footer__lista {
   margin-bottom: 5%;
   margin-left: 3%;
   padding-bottom: 1.5%;
+  align-items: flex-end; }
+
+.background-reseña {
+  background-image: url("../imagenes/flor-libro2.jpg");
+  font-family: 'Times New Roman', Times, serif; }
+
+/* Contenido html "De Ausencias" */
+.titulo__ausencias {
+  float: left;
+  margin-top: 12%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  padding-top: 2px;
+  align-items: flex-end; }
+
+.imagen_principal_ausencias {
+  float: left;
+  padding-top: 2px;
+  padding-right: 20px;
+  width: 240;
+  height: 240;
+  margin-left: 3%;
+  margin-top: 1.5%; }
+
+.parrafo_ausencias {
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  margin-left: 3%;
+  padding-bottom: 6.5%;
+  align-items: flex-end; }
+
+.background-reseña {
+  background-image: url("../imagenes/flor-libro2.jpg");
+  font-family: 'Times New Roman', Times, serif; }
+
+/*Contenido html "En Viaje" */
+.imagen_principal_viaje {
+  float: left;
+  padding-top: 2%;
+  padding-right: 20px;
+  width: 240;
+  height: 240;
+  margin-left: 3%; }
+
+.parrafo_viaje {
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 4.5%;
+  margin-left: 3%;
+  padding-bottom: 5%;
   align-items: flex-end; }
