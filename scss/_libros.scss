@@ -4,30 +4,22 @@
     font-size: x-large;
     text-align: center;
     margin-left: -10%;
-    margin-top:4%;
+    margin-top:1%;
     margin-bottom: 2%;
 }
 
-.lista__libros{
-    margin: 0 auto;
-    width: 100%;
-    list-style: none;
-
-    /* contenedor flex */
-    height: max-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; /* direccionar la posicion el contenido */
-    align-items: center;
-    margin-top: 4%;
-    margin-bottom: 9%;
-}
-
-.lista__libros__item:hover{
-    height: fit-content;
-    transform: scale(1.5);
 
 
+
+/* Card de Libros */
+
+.card{
+    background-color: rgb(255, 218, 185) !important;
+    z-index:initial;
+    margin-top: -1.5% !important;
+    margin-bottom: 8vh !important;
+    border:none !important;
+    font-family:'Times New Roman', Times, serif;
 }
 
 /* Media queries */

@@ -17,7 +17,7 @@
     width: 20%;
     height: 300px;
     margin-top:4%;
-    margin-left: 3%;
+    margin-left: 8%;
     margin-bottom: 4%;
     align-items: center;
     background-image: url(../imagenes/mundos-posibles3.png);
@@ -64,6 +64,14 @@
 }
 
 
+.imagen__libro{
+    align-items: left;
+    margin-left: 20%;
+    margin-top: 7%;
+    margin-bottom:6.5%;   
+}
+
+
 /* Media queries */
 
 
@@ -105,18 +113,24 @@
     
 
     .falsocarrousel{
-        width: 40%;
-        height: 300px;
-        margin-top:10%;
-        margin-left: 15%;
-        margin-bottom: 0.5%;
-        background-image: url(./imagenes/mundos-posibles3.png);
-        background-repeat:no-repeat;
-        background-size:contain;
-        justify-items: center;
-        animation: carrousel 8s  10;
-      }
-    
+        display:none;
+    }
 
-    
+    /* Acceso directo al libro mas leido */
+
+    .imagen__libro{
+        align-items: left;
+        margin-left: 20%;
+        margin-top: 10%;
+        margin-bottom:10%;   
+    }
+}   
+
+@media screen and (min-width:600px){
+
+    .imagen__libro{
+        display:none
+    }
+
+
 }
