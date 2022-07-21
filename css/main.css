@@ -120,31 +120,6 @@ footer .footer__lista {
 
 /* Media queries */
 @media screen and (max-width: 600px) {
-  .encabezado__lista__item a {
-    text-decoration: none;
-    font-size: large;
-    color: white; }
-  .encabezado__lista__item:hover {
-    transform: scale(2);
-    height: fit-content;
-    text-decoration: none; }
-  .encabezado__lista {
-    margin: 0 auto;
-    width: auto;
-    background-color: black;
-    list-style: none;
-    text-decoration: dotted;
-    /* contenedor flex */
-    height: max-content;
-    border: solid 1px #cd6155;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /* direccionar la posicion el contenido */
-    align-items: center;
-    margin-bottom: 6%; }
-  .falsocarrousel {
-    display: none; }
   /* Acceso directo al libro mas leido */
   .imagen__libro {
     align-items: left;
