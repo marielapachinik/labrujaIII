@@ -14,7 +14,7 @@
 /* Card de Libros */
 
 .card{
-    background-color: rgb(255, 218, 185) !important;
+    background-color:map-get($colores, "color-principal") !important;
     z-index:initial;
     margin-top: -1.5% !important;
     margin-bottom: 8vh !important;

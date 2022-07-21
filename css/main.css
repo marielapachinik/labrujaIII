@@ -134,6 +134,7 @@ footer .footer__lista {
 /* Contenido html "Biografia" */
 .body-general {
   background-color: peachpuff;
+  color: darkred;
   font-family: 'Times New Roman', Times, serif; }
 
 .h1_biografia {
@@ -153,7 +154,6 @@ footer .footer__lista {
 
 .parrafo__biografia {
   font-size: medium;
-  color: black;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
@@ -161,7 +161,6 @@ footer .footer__lista {
 
 .parrafo3__biografia {
   font-size: medium;
-  color: black;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
