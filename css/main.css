@@ -11,6 +11,11 @@ body {
   background: peachpuff;
   font-family: 'Times New Roman', Times, serif; }
 
+/* Fondo de index y contacto */
+.background-index-contacto {
+  background-image: url("../imagenes/fondo.bmp");
+  font-family: 'Times New Roman', Times, serif; }
+
 /*Titulo de encabezado */
 h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -31,7 +36,7 @@ body {
   margin: 0 auto;
   width: 100%;
   list-style: none;
-  text-decoration: dotted;
+  text-decoration: none;
   /* contenedor flex */
   height: 50px;
   border: solid 1px #cd6155;
@@ -40,15 +45,17 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 2%; }
-  .encabezado__lista__lista__item {
-    height: fit-content;
-    text-decoration: none;
-    display: inline-block; }
-    .encabezado__lista__lista__item a:hover {
-      text-decoration: none;
-      font-size: x-large;
-      color: white;
-      transform: scale(2); }
+
+.encabezado__lista__item:hover {
+  height: fit-content;
+  text-decoration: none;
+  display: inline-block;
+  transform: scale(2); }
+
+.encabezado__lista__item a {
+  text-decoration: none;
+  font-size: x-large;
+  color: white; }
 
 /* Imagen del logo */
 .img_logo {
@@ -78,11 +85,6 @@ body {
   text-decoration: none;
   font-size: x-large;
   color: white; }
-
-/*Fondo de pagina Index y contacto */
-.background-index-contacto {
-  background-image: url("../imagenes/fondo.bmp");
-  font-family: 'Times New Roman', Times, serif; }
 
 /*Falso carrousel*/
 .falsocarrousel {

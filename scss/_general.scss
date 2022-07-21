@@ -18,6 +18,14 @@ body{
 
 }
 
+/* Fondo de index y contacto */
+
+.background-index-contacto{
+    background-image: url("../imagenes/fondo.bmp");
+    font-family:'Times New Roman', Times, serif;
+
+}
+
 /*Titulo de encabezado */
 
 
@@ -50,7 +58,7 @@ body{
     margin: 0 auto;
     width: 100%;
     list-style: none;
-    text-decoration: dotted;
+    text-decoration: none;
 
     /* contenedor flex */
     height: 50px;
@@ -61,19 +69,22 @@ body{
     align-items: center;
     margin-bottom: 2%;
 
-    &__lista__item{
-        height: fit-content;
-        text-decoration: none;
-        display:inline-block;
-        
+      
+}
 
-        a:hover{
-            text-decoration: none;
-            font-size: x-large;
-            color:white;
-            transform: scale(2);
-        }
-    }
+.encabezado__lista__item:hover{
+    height: fit-content;
+    text-decoration: none;
+    display:inline-block;
+    transform: scale(2);
+}
+    
+
+.encabezado__lista__item a{
+    text-decoration: none;
+    font-size: x-large;
+    color:white;
+        
 }
 
 
